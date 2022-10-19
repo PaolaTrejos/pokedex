@@ -1,0 +1,214 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 70px;
+    width: 1200px;
+    background-color: rgba(233, 3, 3, 0.706);
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.encabezado .pokebola {
+    width: 40px; 
+    height: 40px;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+
+.encabezado h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: x-large;
+    margin-top: 0.5em;
+    margin-left: 0.3em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(197, 197, 197);
+    padding: 20px 20px 20px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.grid .grid-nombre-pokemon { 
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: -5px 5px 5px 5px;
+    margin-top: 1.8em;
+    margin-left: 8em;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size:xx-large;
+    font-weight: 900;
+    margin-top: 0.6em;
+}
+
+.fuego {
+    width: 50px; 
+    height: 50px;
+    margin-top: 0.6em;
+}
+
+.grid .grid-info-pokemon {
+    height: 400px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 5px 35px 5px;
+    margin-top: 1.8em;
+    border-radius: 15px;
+}
+
+.numero {
+    order: 1;
+}
+
+.tipo {
+    order: 2;
+}
+
+.altura {
+    order: 3;
+}
+
+.nivel {
+    order: 4;
+}
+
+.habilidad {
+    order: 5;
+}
+
+.peso {
+    order: 6;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(85, 87, 85);
+    font-weight: 300;
+    font-size: small;
+    padding: 7px 7px 7px 7px;
+}
+
+p {
+    color: rgb(114, 114, 114);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    margin-top: -0.6em;
+}
+
+p:hover {
+    color: rgb(255, 165, 0);
+}
+
+.grid .grid-img-charizard {
+    width: 450px;
+    height: auto;
+    margin-top: 2.5em;
+    margin-left: 9em;
+}
+
+.footer {    
+    height: 140px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer .footer-lista-pokemones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.3em;
+}
+
+.footer h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+    text-align: end;
+}
+
+.footer .tarjeta {
+    background-color: rgb(204, 204, 204);
+    transition: background-color .5s;
+    height: 110px;
+    width: 110px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 3em;  
+}
+
+.tarjeta:hover {
+    background-color: rgb(159, 230, 233);
+}
+
+.img-squirtle {
+    width: 65px;
+    height: auto;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+}
+
+.img-mewtwo {
+    width: 90px;
+    height: auto;
+    margin-top: 0.3em;
+    margin-left: 0.1em;
+}
+
+.img-picachu {
+    width: 50px;
+    height: auto;
+    margin-top: 0.6em;
+    margin-left: 1.4em;
+}
+
+.img-snorlax {
+    width: 80px;
+    height: auto;
+    margin-top: 0.8em;
+    margin-left: 0.4em;
+}
